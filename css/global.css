@@ -1,0 +1,293 @@
+  /* reset start */
+  * {
+      outline: 0 !important;
+  }
+  
+  html,
+  body {
+      width: 100%;
+  }  
+  blockquote,
+  body,
+  button,
+  fieldset,
+  form,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  hr,
+  ul,
+  li,
+  ol,
+  dd,
+  dl,
+  dt,
+  pre,
+  th,
+  td,
+  input,
+  textarea {
+      margin: 0;
+      padding: 0
+  }
+  
+  p {
+      margin: 0 0 15px;
+  }
+  
+  body,
+  button,
+  input,
+  select,
+  textarea {
+      font-size: 13px;
+  }
+  
+  strong {
+      font-weight: 700;
+  }
+  
+/*  a {
+      color: #007aff;
+  }
+  
+  a:hover {
+      color: #666666;
+      text-decoration: none;
+  }*/
+  
+  ul.no-style {
+      list-style: none;
+      padding: 0;
+      margin-left: 0;
+  }
+  
+  blockquote {
+      margin-bottom: 30px;
+  }
+  
+  blockquote p {
+      margin-bottom: 10px;
+  }
+  
+  blockquote.pull-right {
+      text-align: right;
+  }
+  
+  dl {
+      margin: 0 0 20px;
+  }
+  
+  dl dd {
+      margin-bottom: 15px;
+  }
+  
+  ::-moz-selection {
+      background: #007aff;
+      color: white;
+      text-shadow: none;
+  }
+  
+  ::selection {
+      background: #007aff;
+      color: white;
+      text-shadow: none;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 8px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+      /*background: #1eaae5;*/
+      border-radius: 0px;
+      background: rgba(0, 0, 0, 0.15);
+      border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-track {
+      background: #2d2e33;
+      background: rgba(0, 0, 0, 0.05);
+  }
+  
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+      /*font-size: 100%;*/
+      font-weight: normal;
+  }
+  
+  address,
+  cite,
+  dfn,
+  em,
+  i {
+      font-style: normal
+  }
+  
+  ol,
+  ul {
+      list-style: none
+  }
+  
+  a {
+      text-decoration: none
+  }
+  
+  a:hover {
+      text-decoration: underline
+  }
+  
+  button,
+  input,
+  select,
+  textarea {
+      font-size: 100%;
+  }
+  
+  table {
+      border-collapse: collapse;
+      border-spacing: 0
+  }
+  
+  input,
+  select {
+      -webkit-appearance: none;
+      border-radius: 0;
+      border: none;
+      background: none;
+  }
+  
+  a,
+  img {
+      -webkit-touch-callout: none;
+  }  
+  html {
+      height: 100%;
+     /* user-select: none;
+      -webkit-user-select: none;
+*/  }
+  
+  body {
+      background: #fff;
+      color: #000;
+      font-size: 13px;
+      -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+      font-family: "微软雅黑","Helvetica Neue", Helvetica, STHeiTi, sans-serif;
+  }
+  .fl {
+      float: left;
+  }
+  
+  .fr {
+      float: right;
+  }
+  
+  .clearfix {
+      clear: both;
+  }
+  
+  .ma {
+      margin: 0 auto;
+  }
+  
+  .al {
+      text-align: left;
+  }
+  
+  .ac {
+      text-align: center;
+  }
+  
+  .ar {
+      text-align: right;
+  }
+  
+  .vc {
+      display: -webkit-box;
+      /* OLD - iOS 6-, Safari 3.1-6 */
+      display: -moz-box;
+      /* OLD - Firefox 19- (buggy but mostly works) */
+      display: -ms-flexbox;
+      /* TWEENER - IE 10 */
+      display: -webkit-flex;
+      /* NEW - Chrome */
+      display: flex;
+      box-align: center;
+      -webkit-box-align: center;
+      /* y */
+      -moz-box-align: center;
+      -ms-box-align: center;
+      -webkit-align-content: center;
+      -moz-align-content: center;
+      -ms-align-content: center;
+      align-content: center;
+  }
+  
+  .no-border {
+      border: none !important;
+  }
+  
+  .no-padding {
+      padding: 0px !important;
+  }  
+  .no-margin {
+      margin: 0px !important;
+  }
+  
+  .no-radius {
+      border-radius: 0px !important;
+  }
+  
+  .hidden {
+      display: none !important;
+  }
+    
+  .mask {
+      position: fixed;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      background: #000000;
+      opacity: 0.8;
+      z-index: 20;
+  }
+  
+  .positioncenter {
+      -webkit-transform: translate(0, -50%);
+      -moz-transform: translate(0, -50%);
+      -o-transform: translate(0, -50%);
+      -ms-transform: translate(0, -50%);
+      position: absolute;
+      top: 50%;
+      left: 50%;
+  }
+  
+  .ft0 {
+      font-size: 0px;
+  }
+  
+  .ft12 {
+      font-size: 12px;
+  }
+  .ft13 {
+      font-size: 13px;
+  }
+  .ft14 {
+      font-size: 14px;
+  }
+  
+  .ft16 {
+      font-size: 16px;
+  }
+  .ft18 {
+    font-size: 18px;
+  }
+  /* global end */
